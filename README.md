@@ -1,2 +1,2 @@
 # easylanding-e-server
- Easylanding Server in Node + Express
+An AirBnB-like application development to learn Node + Express
