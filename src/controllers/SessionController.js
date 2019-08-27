@@ -10,8 +10,15 @@ const router = express.Router();
  * o await.
  */
 router.post('/register', async (req, res) => {
+  const { email } = req.body;
   try {
+    //Se o email já existir, não deixar cadastrar o usuário e informar o erro
+    if (await User.findOne({ email })) {
+      return res.status(400).send({ error: 'User already exists' });  
+    }
     const user = await User.create(req.body); //await para esperar o create
+    //Não queremos retornar o password após o cadastro, mesmo criptografado
+    user.password = undefined;
     return res.send({ user });
   } catch(err){
     return res.status(400).send({ error: 'Registration failed' });
