@@ -15,6 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false}));
 
 //Referenciando o nosso controlador de autenticação
 require('./controllers/SessionController')(app);
+require('./controllers/ProjectController')(app);
 
 //Uma rota simples na raiz
 app.get('/', (req, res) => {
