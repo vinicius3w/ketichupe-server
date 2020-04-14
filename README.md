@@ -1,2 +1,2 @@
-# nodexpress-server
-A Project and Task manager application development to learn Node + Express
+# easylanding-e-server
+An AirBnB-like application development to learn Node + Express
