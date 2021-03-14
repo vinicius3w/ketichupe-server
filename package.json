@@ -1,22 +1,22 @@
 {
-  "name": "easylanding-e-server",
+  "name": "ketichupe-server",
   "version": "1.0.0",
-  "description": "An AirBnB-like application development to learn Node + Express",
+  "description": "An ToDo-like application development to learn Node + Express",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinicius3w/easylanding-e-server.git"
+    "url": "git+https://github.com/vinicius3w/ketichupe-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vinicius3w/easylanding-e-server/issues"
+    "url": "https://github.com/vinicius3w/ketichupe-server/issues"
   },
-  "homepage": "https://github.com/vinicius3w/easylanding-e-server#readme",
+  "homepage": "https://github.com/vinicius3w/ketichupe-server#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
